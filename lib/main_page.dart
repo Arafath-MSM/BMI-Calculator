@@ -2,6 +2,7 @@ import 'package:bmicalculator/constants.dart';
 import 'package:flutter/material.dart';
 
 class MainPage extends StatefulWidget {
+  
   const MainPage({super.key});
 
   @override
@@ -9,6 +10,7 @@ class MainPage extends StatefulWidget {
 }
 
 class _MainPageState extends State<MainPage> {
+  
   int height = 150;
   int weight = 80;
   late double bmi = calculateBMI(height: height, weight: weight);
@@ -16,6 +18,7 @@ class _MainPageState extends State<MainPage> {
 
   @override
   Widget build(BuildContext context) {
+    
     return Scaffold(
       body: SafeArea(
         child: Container(
