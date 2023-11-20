@@ -205,6 +205,7 @@ class _MainPageState extends State<MainPage> {
   }
 
   static String getResult(bmiValue) {
+    
     if (bmiValue >= 25) {
       return "Overweight";
     } else if (bmiValue <= 18.5) {
