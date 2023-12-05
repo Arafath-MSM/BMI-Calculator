@@ -13,7 +13,6 @@ class _MainPageState extends State<MainPage> {
   
   int height = 150;
   int weight = 80;
-  
   late double bmi = calculateBMI(height: height, weight: weight);
   String gender = '';
 
